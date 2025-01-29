@@ -27,3 +27,7 @@ create super user
 - python3 manage.py createsuperuser 
 - mail
 - password
+
+start app
+- python3 manage.py startapp <app_name>
+- add this app name in settings.py INSTALLED_APPS list
